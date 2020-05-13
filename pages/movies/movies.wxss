@@ -1,0 +1,54 @@
+@import "movie-list/movie-list-template.wxss";
+@import "movie-grid/movie-grid-template.wxss";
+.container{
+  background-color:#f2f2f2;
+}
+.movies-template{
+  margin-bottom: 30rpx;
+}
+.search{
+  background-color: #f2f2f2;
+  height: 80rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  /*
+    background-color:white;
+  height: 80rpx;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+	top: 0;
+	/* 以上代码是固定菜单栏 
+	justify-content: space-around; 
+	align-items: flex-end;
+	text-align: center;*/
+}
+.search-img{
+  margin: auto 0 auto 20rpx;
+}
+.search input{
+  margin-top: 5rpx;
+  height: 90%;
+  width: 600rpx;
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  border: 1rpx solid silver ;
+  border-radius: 30rpx;
+}
+.placeholder{
+  font-size: 24rpx;
+  color: #d1d1d1;
+  margin-left: 20rpx;
+}
+.search-pannel{
+  position: absolute;
+  top: 80px;
+}
+.xx-img{
+  height: 30rpx;
+  width: 30rpx;
+  margin: auto 0 auto 10rpx;
+}

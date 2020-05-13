@@ -1,0 +1,14 @@
+<!--wxml用来编写小程序框架的文件-->
+<!--<div>容器 分隔文档-->
+<view class="container">
+<image class="user-image"  src="/images/1.jpg"></image>
+ <text class="user-name">hello 溜溜梅</text>
+ <view class="moto-container" bindtap="onTap">
+ <!-- binde 冒泡
+  catch 非冒泡
+  都有捕捉 -->
+    <text class="moto">开启小程序之旅</text>
+ </view>
+ <!-- width300px height225 -->
+ <!-- <button></button> -->
+</view>

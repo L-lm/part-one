@@ -1,0 +1,39 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+page{
+  /* 修改page的高度 */
+  height: 100%;
+  background-color: #b3d4db;
+}
+.user-image{
+  width:200rpx;
+  height:200rpx;
+  margin-top: 160rpx;
+  border-radius: 50px;
+  
+}
+.user-name{
+  margin-top: 20rpx;
+ font-size: 32rpx;
+ font-weight: bold;
+ font-family: MicroSoft Yahei; 
+}
+.moto{
+  font-size: 22rpx;
+ font-weight: bold;
+ font-family: MicroSoft Yahei;
+ line-height: 60rpx;
+ color: #405f80
+}
+.moto-container{
+  margin-top: 200rpx;
+  border: 1px solid #405f80;
+  height: 60rpx;
+  width: 200rpx;
+  border-radius: 5px;
+  text-align: center;
+}
+/* flex 布局 弹性盒子空间 */
